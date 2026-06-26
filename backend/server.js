@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
@@ -14,6 +15,12 @@ app.use(bodyParser.json());
 app.use("/products", productRoutes);
 app.use("/users", userRoutes);
 app.use("/orders", orderRoutes);
+
+app.use(express.static(path.join(simple-ecommerce-store, "../frontend")));
+
+app.get("/", (req, res) => {
+    res.sendFile(path.join(simple-ecommerce-store, "../frontend/index.html"));
+});
 
 const PORT = 5000;
 
