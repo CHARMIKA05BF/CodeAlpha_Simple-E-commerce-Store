@@ -1,5 +1,4 @@
 const express = require("express");
-const path = require("path");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
@@ -16,14 +15,8 @@ app.use("/products", productRoutes);
 app.use("/users", userRoutes);
 app.use("/orders", orderRoutes);
 
-app.use(express.static(path.join(simple-ecommerce-store, "../frontend")));
-
-app.get("/", (req, res) => {
-    res.sendFile(path.join(simple-ecommerce-store, "../frontend/index.html"));
-});
-
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
