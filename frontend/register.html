@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <nav>
+        <h2>E-Commerce</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section>
+            <form id="registerForm">
+                <h1>Create Account</h1>
+                <p style="color: var(--muted);">Register now and keep your orders, favorites, and checkout details saved.</p>
+                <input type="text" id="name" placeholder="Name" required />
+                <input type="email" id="email" placeholder="Email" required />
+                <input type="password" id="password" placeholder="Password" required />
+                <input type="submit" value="Register" />
+            </form>
+            <p style="text-align:center;color:var(--muted);margin-top:12px;">Already have an account? <a href="login.html" style="color:var(--accent);font-weight:700;">Login here</a></p>
+        </section>
+    </main>
+
+    <footer>
+        Start shopping with a personalized account.
+    </footer>
+
+    <script src="js/auth.js"></script>
+</body>
+</html>

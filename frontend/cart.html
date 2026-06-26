@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <nav>
+        <h2>E-Commerce</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section>
+            <h1>Your Cart</h1>
+            <div id="cartItems" class="cart-grid"></div>
+            <div id="cartSummary" class="cart-summary" style="display:none;">
+                <div>
+                    <p class="summary-text">Ready to complete your purchase?</p>
+                    <p class="summary-total">Total: ₹<span id="cartTotal">0</span></p>
+                </div>
+                <button id="checkoutButton" class="btn">Place Order</button>
+            </div>
+            <div id="emptyState" class="empty-state" style="display:none;"></div>
+        </section>
+    </main>
+
+    <footer>
+        Checkout with confidence and enjoy curated products.
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>

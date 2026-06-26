@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "price": 50000,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Yoop08Mw8-dNPd86CFSwEZpHH4DK57aEsA&s",
+    "description": "High-performance laptop with sleek design, ideal for work and creative tasks.",
+    "category": "Laptops",
+    "rating": 4.8,
+    "stock": 14
+  },
+  {
+    "id": 2,
+    "name": "Mobile",
+    "price": 20000,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjTetrroXjVcKG4hZ7d1iITjub_NGx1K7C9w&s",
+    "description": "Modern smartphone with a crisp display and long-lasting battery life.",
+    "category": "Mobile Phones",
+    "rating": 4.5,
+    "stock": 22
+  }
+  ,
+  {
+    "id": 3,
+    "name": "Wireless Headphones",
+    "price": 5999,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpnUFqHjS41Fz1zaYets2TTZu_DlZmbmsSGQ&s",
+    "description": "Comfortable noise-cancelling headphones with rich sound and long battery life.",
+    "category": "Audio",
+    "rating": 4.6,
+    "stock": 40
+  },
+  {
+    "id": 4,
+    "name": "Smartwatch",
+    "price": 8999,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ny4JqZvTqA0zeuEUWDxCwXfn-fpjRIzx9Q&s",
+    "description": "Stylish smartwatch with health tracking, notifications, and customizable faces.",
+    "category": "Wearables",
+    "rating": 4.4,
+    "stock": 30
+  },
+  {
+    "id": 5,
+    "name": "Tablet",
+    "price": 24999,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYC9lQV8FBTauviAK_BntKM-wBBwTGVqrIvA&s",
+    "description": "Lightweight tablet with a vivid display and great performance for media and productivity.",
+    "category": "Tablets",
+    "rating": 4.7,
+    "stock": 18
+  },
+  {
+    "id": 6,
+    "name": "Bluetooth Speaker",
+    "price": 2999,
+    "image": "https://avstore.in/cdn/shop/files/1.AVStore-JBL-PartyBox-Encore-Essential-Portable-Bluetooth-Speaker-With-Light-Display-Front-Angled-View-Hero.jpg?v=1682414405",
+    "description": "Portable speaker with punchy bass and IPX5 water resistance for outdoor use.",
+    "category": "Audio",
+    "rating": 4.5,
+    "stock": 55
+  },
+  {
+    "id": 7,
+    "name": "Digital Camera",
+    "price": 35999,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMFYH740RyCRrm_-6uQJvjwEH1DIyHwTvug&s",
+    "description": "Mirrorless camera with excellent low-light performance and 4K video capture.",
+    "category": "Cameras",
+    "rating": 4.7,
+    "stock": 9
+  }
+]
